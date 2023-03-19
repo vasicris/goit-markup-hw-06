@@ -77,14 +77,36 @@ li {
     top: 235px; */
 }
 
-.modal-icon {
-    
+inner-div svg:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.modal-icon > use:hover {
+    fill: #2196F3;
+    cursor: pointer;
 }
 
 .modal-form {
     /* display: flex; */
     flex-direction: column;
     margin: 2px 41px 40px 39px;
+}
+
+.modal-icon-form {
+    fill: #212121;
+    padding-top: 28px;
+    padding-left: 12px;
+    position: absolute;
+}
+
+.modal-icon-form:hover {
+    fill: #2196F3;
 }
 
 .modal-form-title {
@@ -113,6 +135,10 @@ li {
     color: #757575;
 }
 
+.form-label > input {
+    padding-left: 40px;
+}
+
 .checkbox {
     font-weight: 400;
     font-size: 14px;
@@ -132,6 +158,18 @@ li {
     top: 382px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+}
+
+.form-label > input:hover {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-label > textarea:hover {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .form-label > textarea {
@@ -154,6 +192,13 @@ li {
     border-radius: 4px;
     justify-content: center;
     margin: 0px 124px 0px 124px;
+}
+
+.send-button-form:hover {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
