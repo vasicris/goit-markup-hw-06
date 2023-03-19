@@ -822,3 +822,77 @@ inner-div svg:hover {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 0px;
 }
+
+.footer-form-position {
+    margin: 0px 0px 0px 93px;
+}
+
+.footer-form-position-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.form-label-footer > input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    padding: 0px;
+    background: #2F303A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* padding-left: 16px; */
+}
+
+.email-text-footer {
+    position: absolute;
+    margin: 15px 0px 15px 16px;
+    z-index: 2; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer-form-email {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.footer-form-button {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px 12px;
+    padding: 0px;
+    border: 0px;
+}
+
