@@ -122,7 +122,7 @@ inner-div svg:hover {
 .request-our-service-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .form-label {
