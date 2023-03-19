@@ -852,7 +852,8 @@ inner-div svg:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    /* padding-left: 16px; */
+    padding-left: 71px;
+    color: white;
 }
 
 .email-text-footer {
@@ -893,7 +894,7 @@ inner-div svg:hover {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     justify-content: space-evenly;
-    margin: 0px 0px 0px 12px;
+    margin: 0px 215px 0px 12px;
     padding: 0px;
     border: 0px;
 }
