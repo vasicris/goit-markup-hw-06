@@ -81,6 +81,21 @@ li {
     
 }
 
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.request-our-service-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-link {
     display: flex;
     flex-grow: 1;
