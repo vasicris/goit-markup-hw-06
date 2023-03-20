@@ -103,6 +103,16 @@ inner-div svg:hover {
     padding-top: 30px;
     padding-left: 12px;
     position: absolute;
+    margin: 4px 0px 0px;
+    font-weight: 400;
+    box-sizing: border-box;
+    width: 448px;
+    height: 40px;
+    left: 576px;
+    top: 382px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+   /* outline: none; */
 }
 
 .modal-icon-form:hover {
@@ -158,10 +168,22 @@ inner-div svg:hover {
     top: 382px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    outline: none;
+   /* outline: none; */
 }
 
-.form-label > input:focus + svg {
+.form-label > input:hover {
+    fill: #2196f3;
+    color: #2196F3;
+}
+
+.form-label > input:focus {
+    fill: #2196f3;
+    color: #2196F3;
+}
+
+/*
+form-label input:hover + svg,
+form-label input:focus + svg {
     border: 1px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
@@ -169,11 +191,13 @@ inner-div svg:hover {
     fill: #2196F3;
 }
 
-.form-label > textarea:focus {
+form-label > textarea:hover
+form-label > textarea:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
 }
+*/
 
 .checkbox > input:focus + svg {
     border: 1px solid #2196F3;
