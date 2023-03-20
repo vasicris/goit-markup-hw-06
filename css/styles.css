@@ -162,17 +162,29 @@ inner-div svg:hover {
 }
 
 .form-label > input:focus + svg {
-    border: 1px solid red;
-    border-radius: 4px;
-    cursor: pointer;
-    outline: none;
-    fill: red;
-}
-
-.form-label > textarea:hover {
     border: 1px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
+    outline: none;
+    fill: #2196F3;
+}
+
+.form-label > textarea:focus {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkbox > input:focus + svg {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    fill: #2196F3;
+}
+
+.form-label > textarea:focus-visible {
+    outline: none;
 }
 
 .form-label > textarea {
@@ -181,6 +193,15 @@ inner-div svg:hover {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin: 4px 0px 0px;
+    padding: 12px 0px 0px 12px;
+}
+
+.terms-and-cond {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .send-button-form {
@@ -195,6 +216,7 @@ inner-div svg:hover {
     border-radius: 4px;
     justify-content: center;
     margin: 0px 124px 0px 124px;
+    border: none;
 }
 
 .send-button-form:hover {
