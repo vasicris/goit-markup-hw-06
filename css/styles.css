@@ -158,12 +158,15 @@ inner-div svg:hover {
     top: 382px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    outline: none;
 }
 
-.form-label > input:hover {
-    border: 1px solid #2196F3;
+.form-label > input:focus + svg {
+    border: 1px solid red;
     border-radius: 4px;
     cursor: pointer;
+    outline: none;
+    fill: red;
 }
 
 .form-label > textarea:hover {
