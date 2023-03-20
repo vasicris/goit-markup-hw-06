@@ -80,16 +80,19 @@ li {
 inner-div svg:hover {
     color: #2196F3;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .x:hover {
     color: #2196F3;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon > use:hover {
     fill: #2196F3;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form {
@@ -107,6 +110,7 @@ inner-div svg:hover {
 
 .modal-icon-form:hover {
     fill: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-title {
@@ -163,35 +167,52 @@ inner-div svg:hover {
 
 .form-label > input:hover {
     border: 1px solid #2196f3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-label > input:focus + svg {
+.form-label > input:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
     outline: none;
     fill: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.xx:focus {
+    fill: red;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*
+.modal-icon-form :focus {
+    fill: red;
+    color: red;
+}
+*/
 
 .form-label > textarea:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
     outline: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label > textarea:hover {
     border: 1px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox > input:focus + svg {
+.checkbox > input:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
     outline: none;
     fill: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label > textarea:focus-visible {
@@ -235,6 +256,7 @@ inner-div svg:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -282,10 +304,12 @@ inner-div svg:hover {
 
 .header-right-envelope svg:hover {
     fill: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-right-phone svg:hover {
     fill: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .WebStudio-info-header {
