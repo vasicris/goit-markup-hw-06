@@ -152,6 +152,7 @@ inner-div svg:hover {
     letter-spacing: 0.03em;
     color: #757575;
     margin: 10px 11px 30px 13px;
+    display: flex;
 }
 
 .form-label > input {
@@ -183,13 +184,17 @@ inner-div svg:hover {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.xx:focus {
+xx:focus {
     fill: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-form:focus {
+modal-icon-form:focus {
     fill: #2196F3;
+}
+
+.form-label svg:focus {
+    fill: red;
 }
 
 .form-label > textarea:focus {
@@ -231,12 +236,37 @@ inner-div svg:hover {
     padding: 12px 16px;
 }
 
+.replace-checkbox {
+    width: 12px;
+    height: 12px;
+    border: 2px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.checkbox svg {
+    width: 12px;
+    height: 12px;
+    fill: white;
+    padding-bottom: 4px;
+}
+
 .terms-and-cond {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #2196F3;
+}
+
+.request-our-service-form input[type="checkbox"]:checked+.replace-checkbox {
+    background: #2196F3;
+    border-color: #2196F3;
+}
+
+.request-our-service-form input[type="checkbox"] {
+    display: none;
 }
 
 .send-button-form {
@@ -260,6 +290,10 @@ inner-div svg:hover {
     border-radius: 4px;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-button-form:focus {
+    outline: none;
 }
 
 .nav-link {
