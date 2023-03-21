@@ -258,6 +258,8 @@ modal-icon-form:focus {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #2196F3;
+    padding-left: 4px;
+    text-decoration: underline;
 }
 
 .request-our-service-form input[type="checkbox"]:checked+.replace-checkbox {
