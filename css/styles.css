@@ -262,6 +262,7 @@ form-label svg:focus {
     border-radius: 2px;
     display: inline-block;
     margin-right: 7px;
+    margin-bottom: 5px;
 }
 
 .checkbox svg {
