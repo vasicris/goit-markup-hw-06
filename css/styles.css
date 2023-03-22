@@ -16,7 +16,6 @@ li {
 }
 
 .section {
-    /* padding: 94px 0px 0px 0px; */
     margin: 0px;
     margin: 0px auto;
 }
@@ -70,11 +69,6 @@ li {
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    /* position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 1032px;
-    top: 235px; */
 }
 
 inner-div svg:hover {
@@ -108,13 +102,6 @@ inner-div svg:hover {
     position: absolute;
 }
 
-/*
-.modal-icon-form:hover {
-    fill: #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-*/
-
 .modal-form-title {
     margin: 2px 0px 12px;
     font-weight: 700;
@@ -128,7 +115,6 @@ inner-div svg:hover {
 .request-our-service-form {
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
 }
 
 .form-label {
@@ -168,13 +154,6 @@ inner-div svg:hover {
     outline: none;
 }
 
-/*
-.form-label > input:hover {
-    border: 1px solid #2196f3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-*/
-
 .form-label > input:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
@@ -183,21 +162,6 @@ inner-div svg:hover {
     fill: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/*
-xx:focus {
-    fill: #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-modal-icon-form:focus {
-    fill: #2196F3;
-}
-
-form-label svg:focus {
-    fill: red;
-}
-*/
 
 .request-our-service-form input[type="email"]:focus+.modal-icon-form {
     fill: #2196F3;
@@ -221,26 +185,6 @@ form-label svg:focus {
     outline: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/*
-.form-label > textarea:hover {
-    border: 1px solid #2196F3;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-*/
-
-/*
-.checkbox > input:focus {
-    border: 1px solid #2196F3;
-    border-radius: 4px;
-    cursor: pointer;
-    outline: none;
-    fill: #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-*/
 
 .form-label > textarea:focus-visible {
     outline: none;
@@ -399,7 +343,6 @@ form-label svg:focus {
 
 .header-right-envelope {
     display: flex;
-    /* padding-right: 10px; */
 }
 
 .header-right-phone {
@@ -410,13 +353,6 @@ form-label svg:focus {
     padding-right: 10px;
 }
 
-/*
-.header-wright :hover {
-    color:#2196F3;
-    cursor: pointer;
-    border: none;
-} */
-
 .header-right > li {
     padding-right: 30px;
 }
@@ -426,10 +362,6 @@ form-label svg:focus {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-}
-
-.head {
-    /* background-color: #2F303A; */
 }
 
 .head-title {
@@ -620,7 +552,6 @@ form-label svg:focus {
 }
 
 .title-what-we-do {
-    /* margin-top: 44px; */
     padding-top: 91px;
     font-weight: 700;
     font-size: 36px;
@@ -897,7 +828,6 @@ form-label svg:focus {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    /* color: #FFFFFF; */
 }
 
 .icon-list-item-footer > svg {
@@ -987,16 +917,6 @@ form-label svg:focus {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
-/*
-.footer-form-email {
-    width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-}
-*/
 
 .footer-form-button {
     width: 200px;
